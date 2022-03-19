@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Users.Data;
+using AutoMapper;
 
 namespace Users
 {
@@ -29,7 +30,8 @@ namespace Users
             services.AddDbContext<UserDbContext>(opt=>opt.UseSqlServer
             (Configuration.GetConnectionString("UserConnection")));
             services.AddControllers();
-            services.AddScoped<IUsersRepository,MockUserRepository>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddScoped<IUsersRepository,EFUserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

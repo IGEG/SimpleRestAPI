@@ -60,3 +60,6 @@ C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\ru
 C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\obj\Debug\netcoreapp3.1\Users.csproj.CopyComplete
+C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
