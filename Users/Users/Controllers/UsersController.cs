@@ -9,17 +9,22 @@ namespace Users.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly MockUserRepository mock = new MockUserRepository();
+        private readonly IUsersRepository repository;
+        public UsersController(IUsersRepository repo)
+        {
+            repository=repo;
+        }
+        //private readonly MockUserRepository mock = new MockUserRepository();
         [HttpGet]
         public ActionResult<IEnumerable<User>> GetAllUser()
         {
-            var UserList = mock.GetAllUsers();
+            var UserList = repository.GetAllUsers();
             return Ok(UserList);
         }
         [HttpGet("{Id}")]
         public ActionResult<User> GetUserById(long Id)
         {
-            var user = mock.GetUserById(Id);
+            var user = repository.GetUserById(Id);
             return Ok(user);
         }
 
