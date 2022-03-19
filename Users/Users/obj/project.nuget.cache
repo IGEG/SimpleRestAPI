@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FXpVK5jqbvvBokHRuMJWd5h9Y5EmqHtajmO/T+HcZI1PlDALXqlQwP0eNiKCX2XaNJSrpB4y05NVJmjBsEHDWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\igor1\\source\\repos\\SimpleRestAPI\\Users\\Users\\Users.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igor1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
