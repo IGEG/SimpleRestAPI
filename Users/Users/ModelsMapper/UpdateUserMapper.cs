@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Users.ModelsMapper
 {
-    public class CreateUserMapper
+    public class UpdateUserMapper
     {
         [Required]
         public string FName { get; set; }

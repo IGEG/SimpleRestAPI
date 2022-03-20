@@ -5,22 +5,31 @@ using Users.MOdels;
 
 namespace Users.Data
 {
-public class EFUserRepository:IUsersRepository
-{
-    private readonly UserDbContext context;
-    public EFUserRepository(UserDbContext cont)
+    public class EFUserRepository : IUsersRepository
     {
-        context = cont;
-    }
+        private readonly UserDbContext context;
+        public EFUserRepository(UserDbContext cont)
+        {
+            context = cont;
+        }
 
         public void CreateUser(User user)
         {
-            if(user ==null)
+            if (user == null)
             {
                 throw new ArgumentNullException("user");
             }
             context.Users.Add(user);
-          
+
+        }
+
+        public void DeleteUser(User user)
+        {
+            if (user == null)
+            {
+                throw new ArgumentNullException("user");
+            }
+            context.Users.Remove(user);
         }
 
         public IEnumerable<User> GetAllUsers()
@@ -30,12 +39,17 @@ public class EFUserRepository:IUsersRepository
 
         public User GetUserById(long Id)
         {
-            return context.Users.FirstOrDefault(u=>u.Id==Id);
+            return context.Users.FirstOrDefault(u => u.Id == Id);
         }
 
         public bool SaveChanges()
         {
-            return (context.SaveChanges()>=0);
+            return (context.SaveChanges() >= 0);
+        }
+
+        public void UpdateUser(User user)
+        {
+           //
         }
     }
 }

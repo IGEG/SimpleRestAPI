@@ -63,3 +63,6 @@ C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\obj\Debug\netcoreapp3.1\Us
 C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\igor1\source\repos\SimpleRestAPI\Users\Users\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

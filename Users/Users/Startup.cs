@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Users.Data;
 using AutoMapper;
+using Newtonsoft.Json.Serialization;
 
 namespace Users
 {
@@ -29,7 +30,8 @@ namespace Users
         {
             services.AddDbContext<UserDbContext>(opt=>opt.UseSqlServer
             (Configuration.GetConnectionString("UserConnection")));
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(s=>{s.SerializerSettings.ContractResolver =
+            new CamelCasePropertyNamesContractResolver();});
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IUsersRepository,EFUserRepository>();
         }
