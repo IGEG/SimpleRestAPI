@@ -37,5 +37,16 @@ namespace Users.Controllers
             return NotFound();
         }
 
+        [HttpPost]
+        public ActionResult<UserMapper> CreateUser(CreateUserMapper createUserMapper)
+        {if(createUserMapper!=null){
+            var user = mapper.Map<User>(createUserMapper);
+            repository.CreateUser(user);
+            repository.SaveChanges();
+            return Ok(user);
+        }
+        return NotFound();
+        }
+
     }
 }

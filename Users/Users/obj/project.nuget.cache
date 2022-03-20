@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z2CU7p6+P5eRk+KO1mPcRdw74s+CX7LNoCBGsbamg9mEQLJTxbr7cyWQQHZXTX+jNQydMPJmF+e1FjVmrRSz0A==",
+  "dgSpecHash": "/mM1tYu4d69lH56A2KmQHbjZcPEBnWGlznP1JzP65U1xCKdPcRoZiu4XqVbW7Tc2ZsQqyN1GqH6UtecZ8bRPug==",
   "success": true,
   "projectFilePath": "C:\\Users\\igor1\\source\\repos\\SimpleRestAPI\\Users\\Users\\Users.csproj",
   "expectedPackageFiles": [
@@ -105,36 +105,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\igor1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Users зависит от Microsoft.EntityFrameworkCore (>= 3.1.100), но Microsoft.EntityFrameworkCore 3.1.100 не найден. Использовано наилучшее приближенное соответствие Microsoft.EntityFrameworkCore 5.0.0.",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Users зависит от Microsoft.EntityFrameworkCore.Design (>= 3.1.100), но Microsoft.EntityFrameworkCore.Design 3.1.100 не найден. Использовано наилучшее приближенное соответствие Microsoft.EntityFrameworkCore.Design 5.0.0.",
-      "libraryId": "Microsoft.EntityFrameworkCore.Design",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Users зависит от Microsoft.EntityFrameworkCore.SqlServer (>= 3.1.100), но Microsoft.EntityFrameworkCore.SqlServer 3.1.100 не найден. Использовано наилучшее приближенное соответствие Microsoft.EntityFrameworkCore.SqlServer 5.0.0.",
-      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

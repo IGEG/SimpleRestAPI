@@ -7,6 +7,8 @@ namespace Users.Data
     {
          IEnumerable<User> GetAllUsers ();
          User GetUserById (long Id);
+         void CreateUser (User user);
+         bool SaveChanges();
         
     }
 }

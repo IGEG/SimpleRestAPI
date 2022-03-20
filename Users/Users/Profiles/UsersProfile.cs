@@ -9,6 +9,7 @@ namespace Users.Profiles
 public UsersProfile()
 {
     CreateMap<User,UserMapper>();
+    CreateMap<CreateUserMapper,User>();
 }
     }
 }

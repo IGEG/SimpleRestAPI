@@ -1,12 +1,11 @@
 namespace Users.ModelsMapper
 {
-    public class UserMapper
+    public class CreateUserMapper
     {
-        public long Id { get; set; }
-
         public string FName { get; set; }
 
         public string LName { get; set; }
+        public string Adress { get; set; }
 
     }
 }

@@ -5,7 +5,12 @@ namespace Users.Data
 {
 public class MockUserRepository : IUsersRepository
 {
-    public IEnumerable<User> GetAllUsers()
+        public void CreateUser(User user)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerable<User> GetAllUsers()
     {
         var users = new List<User>
 {
@@ -20,5 +25,10 @@ public class MockUserRepository : IUsersRepository
     {
         return new User { Id = 0, FName = "First0", LName = "Last0", Adress = "Street0" };
     }
-}
+
+        bool IUsersRepository.SaveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }
